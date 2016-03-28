@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GShipment
 @end
 
 @interface GShipment : GObject
 
 
-
 @property(nonatomic) NSString* trackingNumber;
-
 
 @property(nonatomic) NSString* trackingUrl;
 
-
 @property(nonatomic) NSString* shipCarrierName;
 
-
 @end
-
-

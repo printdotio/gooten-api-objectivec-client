@@ -10,44 +10,29 @@
 #import "GShipPrice.h"
 
 
-
-
-
 @protocol GShipOption
 @end
 
 @interface GShipOption : GObject
 
-
 /* The ID that can be passed into the /orders POST endpoing as ShipCarrierMethodId to specify an item's shipping method. 
  */
 @property(nonatomic) NSNumber* _id;
 
-
 @property(nonatomic) NSString* methodType;
-
 
 @property(nonatomic) NSNumber* methodId;
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* carrierName;
 
-
 @property(nonatomic) NSString* carrierLogoUrl;
-
 
 @property(nonatomic) GShipPrice* price;
 
-
 @property(nonatomic) GShipPrice* partnerPrice;
-
 
 @property(nonatomic) NSNumber* estBusinessDaysTilDelivery;
 
-
 @end
-
-

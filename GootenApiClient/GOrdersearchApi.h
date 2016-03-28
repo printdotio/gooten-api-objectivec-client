@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GSubmittedOrderList.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GOrdersearchApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GOrdersearchApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GOrdersearchApi*) sharedAPI;
-
 ///
 ///
 /// Search an orders
@@ -53,8 +50,6 @@
     pageSize: (NSNumber*) pageSize
     page: (NSNumber*) page
     completionHandler: (void (^)(GSubmittedOrderList* output, NSError* error)) handler;
-
-
 
 
 

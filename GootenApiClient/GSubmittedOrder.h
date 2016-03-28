@@ -10,22 +10,14 @@
 #import "GItem.h"
 
 
-
-
-
 @protocol GSubmittedOrder
 @end
 
 @interface GSubmittedOrder : GObject
 
 
-
 @property(nonatomic) NSString* _id;
-
 
 @property(nonatomic) NSArray<GItem>* items;
 
-
 @end
-
-

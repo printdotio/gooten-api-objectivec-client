@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GResult.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GAddressvalidationApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GAddressvalidationApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GAddressvalidationApi*) sharedAPI;
-
 ///
 ///
 /// Validates an address and returns a suggested address (if available) and a validation score.
@@ -43,8 +40,6 @@
     postalCode: (NSString*) postalCode
     countryCode: (NSString*) countryCode
     completionHandler: (void (^)(GResult* output, NSError* error)) handler;
-
-
 
 
 

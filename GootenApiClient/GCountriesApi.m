@@ -1,8 +1,6 @@
-
 #import "GCountriesApi.h"
 #import "GQueryParamCollection.h"
 #import "GCountryList.h"
-
 
 
 @interface GCountriesApi ()
@@ -70,7 +68,6 @@ static GCountriesApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a list of supported countries. Output is in specified language.
@@ -157,8 +154,6 @@ static GCountriesApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

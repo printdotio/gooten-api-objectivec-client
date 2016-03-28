@@ -9,19 +9,12 @@
 
 
 
-
-
-
 @protocol GOrderStatusUpdateResult
 @end
 
 @interface GOrderStatusUpdateResult : GObject
 
 
-
 @property(nonatomic) NSNumber* hadError;
 
-
 @end
-
-

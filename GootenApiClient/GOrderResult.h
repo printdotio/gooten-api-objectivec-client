@@ -9,19 +9,12 @@
 
 
 
-
-
-
 @protocol GOrderResult
 @end
 
 @interface GOrderResult : GObject
 
 
-
 @property(nonatomic) NSString* _id;
 
-
 @end
-
-

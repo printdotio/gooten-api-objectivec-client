@@ -9,43 +9,28 @@
 
 
 
-
-
-
 @protocol GProductOption
 @end
 
 @interface GProductOption : GObject
 
 
-
 @property(nonatomic) NSString* optionId;
-
 
 @property(nonatomic) NSString* valueId;
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* value;
 
-
 @property(nonatomic) NSString* imageUrl;
-
 
 @property(nonatomic) NSString* imageType;
 
-
 @property(nonatomic) NSString* rgbaColor;
-
 
 @property(nonatomic) NSString* cmValue;
 
-
 @property(nonatomic) NSString* sortValue;
 
-
 @end
-
-

@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GValidationFailure
 @end
 
 @interface GValidationFailure : GObject
 
 
-
 @property(nonatomic) NSString* propertyName;
-
 
 @property(nonatomic) NSString* errorMessage;
 
-
 @property(nonatomic) NSString* attemptedValue;
 
-
 @end
-
-

@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GCountryList.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GCountriesApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GCountriesApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GCountriesApi*) sharedAPI;
-
 ///
 ///
 /// Get a list of supported countries. Output is in specified language.
@@ -35,8 +32,6 @@
 -(NSNumber*) countriesWithLanguageCode: (NSString*) languageCode
     key: (NSString*) key
     completionHandler: (void (^)(GCountryList* output, NSError* error)) handler;
-
-
 
 
 

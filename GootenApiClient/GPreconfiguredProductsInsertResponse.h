@@ -9,16 +9,10 @@
 
 
 
-
-
-
 @protocol GPreconfiguredProductsInsertResponse
 @end
 
 @interface GPreconfiguredProductsInsertResponse : GObject
 
 
-
 @end
-
-

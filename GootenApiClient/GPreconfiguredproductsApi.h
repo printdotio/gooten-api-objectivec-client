@@ -2,7 +2,6 @@
 #import "GPreconfiguredProductInsert.h"
 #import "GPreconfiguredProductsInsertResponse.h"
 #import "GPreconfiguredProductsResponse.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -13,7 +12,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GPreconfiguredproductsApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -23,7 +21,6 @@
 -(unsigned long) requestQueueSize;
 +(GPreconfiguredproductsApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GPreconfiguredproductsApi*) sharedAPI;
-
 ///
 ///
 /// Insert a preconfigured product
@@ -41,7 +38,6 @@
     completionHandler: (void (^)(GPreconfiguredProductsInsertResponse* output, NSError* error)) handler;
 
 
-
 ///
 ///
 /// Delete a preconfigured product
@@ -57,7 +53,6 @@
     source: (NSString*) source
     sku: (NSString*) sku
     completionHandler: (void (^)(GPreconfiguredProductsInsertResponse* output, NSError* error)) handler;
-
 
 
 ///
@@ -81,7 +76,6 @@
     completionHandler: (void (^)(GPreconfiguredProductsResponse* output, NSError* error)) handler;
 
 
-
 ///
 ///
 /// Update a preconfigured product
@@ -97,8 +91,6 @@
     version: (NSNumber*) version
     source: (NSString*) source
     completionHandler: (void (^)(GPreconfiguredProductsInsertResponse* output, NSError* error)) handler;
-
-
 
 
 

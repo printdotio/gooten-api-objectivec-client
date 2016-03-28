@@ -1,9 +1,7 @@
-
 #import "GShippingpricesApi.h"
 #import "GQueryParamCollection.h"
 #import "GShippingPricesResult.h"
 #import "GShippingPricesRequest.h"
-
 
 
 @interface GShippingpricesApi ()
@@ -71,7 +69,6 @@ static GShippingpricesApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a list of shipping options and prices for items
@@ -159,8 +156,6 @@ static GShippingpricesApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

@@ -10,46 +10,30 @@
 #import "GPriceInfo.h"
 
 
-
-
-
 @protocol GOrderPriceResult
 @end
 
 @interface GOrderPriceResult : GObject
 
 
-
 @property(nonatomic) GPriceInfo* items;
-
 
 @property(nonatomic) GPriceInfo* shipping;
 
-
 @property(nonatomic) GPriceInfo* tax;
-
 
 @property(nonatomic) GPriceInfo* couponCode;
 
-
 @property(nonatomic) NSString* couponType;
-
 
 @property(nonatomic) NSString* couponUsed;
 
-
 @property(nonatomic) NSNumber* hadCouponApply;
-
 
 @property(nonatomic) NSNumber* dollarsOff;
 
-
 @property(nonatomic) NSNumber* percentOff;
-
 
 @property(nonatomic) NSNumber* hadError;
 
-
 @end
-
-

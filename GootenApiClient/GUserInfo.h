@@ -9,34 +9,22 @@
 
 
 
-
-
-
 @protocol GUserInfo
 @end
 
 @interface GUserInfo : GObject
 
 
-
 @property(nonatomic) NSString* languageCode;
-
 
 @property(nonatomic) NSString* countryCode;
 
-
 @property(nonatomic) NSString* countryName;
-
 
 @property(nonatomic) NSString* currencyName;
 
-
 @property(nonatomic) NSString* currencyCode;
-
 
 @property(nonatomic) NSString* currencyFormat;
 
-
 @end
-
-

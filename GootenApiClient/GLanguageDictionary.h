@@ -10,22 +10,14 @@
 #import "GKeyValuePair.h"
 
 
-
-
-
 @protocol GLanguageDictionary
 @end
 
 @interface GLanguageDictionary : GObject
 
 
-
 @property(nonatomic) NSString* category;
-
 
 @property(nonatomic) NSArray<GKeyValuePair>* values;
 
-
 @end
-
-

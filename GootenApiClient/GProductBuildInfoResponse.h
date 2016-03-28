@@ -10,19 +10,12 @@
 #import "GProductBuildOption.h"
 
 
-
-
-
 @protocol GProductBuildInfoResponse
 @end
 
 @interface GProductBuildInfoResponse : GObject
 
 
-
 @property(nonatomic) NSArray<GProductBuildOption>* options;
 
-
 @end
-
-

@@ -11,22 +11,14 @@
 #import "GProductVariant.h"
 
 
-
-
-
 @protocol GProductVariantResponse
 @end
 
 @interface GProductVariantResponse : GObject
 
 
-
 @property(nonatomic) NSArray<GProductVariant>* productVariants;
-
 
 @property(nonatomic) NSArray<GProductOptionList>* options;
 
-
 @end
-
-

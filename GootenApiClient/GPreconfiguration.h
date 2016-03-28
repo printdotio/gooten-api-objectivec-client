@@ -9,24 +9,16 @@
 
 
 
-
-
-
 @protocol GPreconfiguration
 @end
 
 @interface GPreconfiguration : GObject
 
-
 /* Required only for multi-image items. The ID of the space where an image is to be placed. One can attain the SpaceId via inspecting the template data. 
  */
 @property(nonatomic) NSString* spaceId;
-
 /* The url of the image to be placed in the referenced layer. 
  */
 @property(nonatomic) NSString* url;
 
-
 @end
-
-

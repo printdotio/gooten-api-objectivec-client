@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GProductList.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GProductsApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GProductsApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GProductsApi*) sharedAPI;
-
 ///
 ///
 /// Get a list of products
@@ -45,8 +42,6 @@
     languageCode: (NSString*) languageCode
     currencyCode: (NSString*) currencyCode
     completionHandler: (void (^)(GProductList* output, NSError* error)) handler;
-
-
 
 
 

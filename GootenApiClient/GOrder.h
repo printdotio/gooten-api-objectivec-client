@@ -12,28 +12,18 @@
 #import "GShipToAddress.h"
 
 
-
-
-
 @protocol GOrder
 @end
 
 @interface GOrder : GObject
 
 
-
 @property(nonatomic) GShipToAddress* shipToAddress;
-
 
 @property(nonatomic) NSArray<GOrderItem>* items;
 
-
 @property(nonatomic) GPayment* payment;
-
 
 @property(nonatomic) NSString* couponCode;
 
-
 @end
-
-

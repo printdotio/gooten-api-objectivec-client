@@ -10,28 +10,18 @@
 #import "GAddress.h"
 
 
-
-
-
 @protocol GResult
 @end
 
 @interface GResult : GObject
 
 
-
 @property(nonatomic) NSNumber* isValid;
-
 
 @property(nonatomic) NSString* reason;
 
-
 @property(nonatomic) NSNumber* score;
-
 
 @property(nonatomic) GAddress* proposedAddress;
 
-
 @end
-
-

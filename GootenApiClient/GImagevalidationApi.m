@@ -1,9 +1,7 @@
-
 #import "GImagevalidationApi.h"
 #import "GQueryParamCollection.h"
 #import "GImageValidationVm.h"
 #import "GImageValidatorResult.h"
-
 
 
 @interface GImagevalidationApi ()
@@ -71,7 +69,6 @@ static GImagevalidationApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Submit image validation
@@ -152,8 +149,6 @@ static GImagevalidationApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

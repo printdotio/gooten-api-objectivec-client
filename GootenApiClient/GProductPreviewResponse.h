@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GProductPreviewResponse
 @end
 
 @interface GProductPreviewResponse : GObject
 
 
-
 @property(nonatomic) NSString* url;
-
 
 @property(nonatomic) NSNumber* hadError;
 
-
 @property(nonatomic) NSString* errorMessage;
 
-
 @end
-
-

@@ -10,34 +10,22 @@
 #import "GSkuQuantityPair.h"
 
 
-
-
-
 @protocol GShippingPricesRequest
 @end
 
 @interface GShippingPricesRequest : GObject
 
 
-
 @property(nonatomic) NSString* shipToPostalCode;
-
 
 @property(nonatomic) NSString* shipToCountry;
 
-
 @property(nonatomic) NSString* shipToState;
-
 
 @property(nonatomic) NSString* currencyCode;
 
-
 @property(nonatomic) NSString* languageCode;
-
 
 @property(nonatomic) NSArray<GSkuQuantityPair>* items;
 
-
 @end
-
-

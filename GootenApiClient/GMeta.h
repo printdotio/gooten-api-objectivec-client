@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GMeta
 @end
 
 @interface GMeta : GObject
 
 
-
 @property(nonatomic) NSString* key;
-
 
 @property(nonatomic) NSString* value;
 
-
 @end
-
-

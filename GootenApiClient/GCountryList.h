@@ -10,19 +10,12 @@
 #import "GCountry.h"
 
 
-
-
-
 @protocol GCountryList
 @end
 
 @interface GCountryList : GObject
 
 
-
 @property(nonatomic) NSArray<GCountry>* countries;
 
-
 @end
-
-

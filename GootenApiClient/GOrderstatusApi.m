@@ -1,8 +1,6 @@
-
 #import "GOrderstatusApi.h"
 #import "GQueryParamCollection.h"
 #import "GOrderStatusUpdateResult.h"
-
 
 
 @interface GOrderstatusApi ()
@@ -70,7 +68,6 @@ static GOrderstatusApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Update an order status
@@ -179,8 +176,6 @@ static GOrderstatusApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

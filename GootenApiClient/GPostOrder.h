@@ -13,43 +13,29 @@
 #import "GShipToAddress.h"
 
 
-
-
-
 @protocol GPostOrder
 @end
 
 @interface GPostOrder : GObject
 
 
-
 @property(nonatomic) GShipToAddress* shipToAddress;
-
 
 @property(nonatomic) GShipToAddress* billingAddress;
 
-
 @property(nonatomic) NSArray<GPostOrderItem>* items;
 
-
 @property(nonatomic) GOrderPayment* payment;
-
 /* Clients can submit an ID they use for the order here. 
  */
 @property(nonatomic) NSString* sourceId;
-
 /* Submit the order into PrePayment status. 
  */
 @property(nonatomic) NSNumber* isPreSubmit;
 
-
 @property(nonatomic) NSString* couponCode;
-
 /* An optional Map<string,string> of misc properties. 
  */
 @property(nonatomic) GMeta* meta;
 
-
 @end
-
-

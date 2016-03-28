@@ -9,49 +9,32 @@
 
 
 
-
-
-
 @protocol GShipToAddress
 @end
 
 @interface GShipToAddress : GObject
 
 
-
 @property(nonatomic) NSString* firstName;
-
 
 @property(nonatomic) NSString* lastName;
 
-
 @property(nonatomic) NSString* line1;
-
 
 @property(nonatomic) NSString* line2;
 
-
 @property(nonatomic) NSString* city;
-
 
 @property(nonatomic) NSString* state;
 
-
 @property(nonatomic) NSString* countryCode;
-
 
 @property(nonatomic) NSString* postalCode;
 
-
 @property(nonatomic) NSNumber* isBusinessAddress;
-
 
 @property(nonatomic) NSString* phone;
 
-
 @property(nonatomic) NSString* email;
 
-
 @end
-
-

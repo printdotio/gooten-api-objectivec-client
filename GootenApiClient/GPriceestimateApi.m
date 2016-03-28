@@ -1,9 +1,7 @@
-
 #import "GPriceestimateApi.h"
 #import "GQueryParamCollection.h"
 #import "GOrderPriceResult.h"
 #import "GOrder.h"
-
 
 
 @interface GPriceestimateApi ()
@@ -71,7 +69,6 @@ static GPriceestimateApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get an order price
@@ -174,8 +171,6 @@ static GPriceestimateApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

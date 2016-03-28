@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GPaymentValidationResponse.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GPaymentvalidationApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GPaymentvalidationApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GPaymentvalidationApi*) sharedAPI;
-
 ///
 ///
 /// Submit payment validation for PayPal
@@ -35,8 +32,6 @@
 -(NSNumber*) paymentvalidationWithOrderId: (NSString*) orderId
     payPalKey: (NSString*) payPalKey
     completionHandler: (void (^)(GPaymentValidationResponse* output, NSError* error)) handler;
-
-
 
 
 

@@ -9,19 +9,12 @@
 
 
 
-
-
-
 @protocol GPaymentValidationResponse
 @end
 
 @interface GPaymentValidationResponse : GObject
 
 
-
 @property(nonatomic) NSNumber* isValid;
 
-
 @end
-
-

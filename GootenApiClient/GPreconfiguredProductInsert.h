@@ -11,38 +11,26 @@
 #import "GPreconfiguredProductImage.h"
 
 
-
-
-
 @protocol GPreconfiguredProductInsert
 @end
 
 @interface GPreconfiguredProductInsert : GObject
 
-
 /* A sku that uniquely identifies the preconfigured product. 
  */
 @property(nonatomic) NSString* sku;
 
-
 @property(nonatomic) NSString* name;
 
-
 @property(nonatomic) NSString* _description;
-
 /* Optional price. 
  */
 @property(nonatomic) NSNumber* price;
-
 /* The item[s] that constitue the product. 
  */
 @property(nonatomic) NSArray<GPreconfiguredItem>* items;
-
 /* Product images. Can contain large and small images for web, mobile, etc 
  */
 @property(nonatomic) NSArray<GPreconfiguredProductImage>* images;
 
-
 @end
-
-

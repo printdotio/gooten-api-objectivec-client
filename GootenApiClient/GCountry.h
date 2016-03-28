@@ -10,34 +10,22 @@
 #import "GCurrency.h"
 
 
-
-
-
 @protocol GCountry
 @end
 
 @interface GCountry : GObject
 
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* code;
 
-
 @property(nonatomic) NSNumber* isSupported;
-
 
 @property(nonatomic) NSString* measurementCode;
 
-
 @property(nonatomic) NSString* flagUrl;
-
 
 @property(nonatomic) GCurrency* defaultCurrency;
 
-
 @end
-
-

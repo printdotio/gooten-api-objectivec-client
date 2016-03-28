@@ -9,31 +9,20 @@
 
 
 
-
-
-
 @protocol GProductPreviewImageSpec
 @end
 
 @interface GProductPreviewImageSpec : GObject
 
 
-
 @property(nonatomic) NSString* url;
-
 
 @property(nonatomic) NSNumber* x1;
 
-
 @property(nonatomic) NSNumber* x2;
-
 
 @property(nonatomic) NSNumber* y1;
 
-
 @property(nonatomic) NSNumber* y2;
 
-
 @end
-
-

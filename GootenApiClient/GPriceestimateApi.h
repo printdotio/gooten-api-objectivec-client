@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "GOrderPriceResult.h"
 #import "GOrder.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -12,7 +11,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GPriceestimateApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -22,7 +20,6 @@
 -(unsigned long) requestQueueSize;
 +(GPriceestimateApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GPriceestimateApi*) sharedAPI;
-
 ///
 ///
 /// Get an order price
@@ -38,8 +35,6 @@
     version: (NSNumber*) version
     source: (NSString*) source
     completionHandler: (void (^)(GOrderPriceResult* output, NSError* error)) handler;
-
-
 
 
 

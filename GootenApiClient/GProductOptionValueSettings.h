@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GProductOptionValueSettings
 @end
 
 @interface GProductOptionValueSettings : GObject
 
 
-
 @property(nonatomic) NSString* iconUrl;
-
 
 @property(nonatomic) NSString* iconType;
 
-
 @property(nonatomic) NSString* colorRgba;
 
-
 @end
-
-

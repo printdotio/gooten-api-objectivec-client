@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GImageSizeVm
 @end
 
 @interface GImageSizeVm : GObject
 
 
-
 @property(nonatomic) NSString* spaceId;
-
 
 @property(nonatomic) NSNumber* width;
 
-
 @property(nonatomic) NSNumber* height;
 
-
 @end
-
-

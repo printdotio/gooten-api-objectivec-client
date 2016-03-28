@@ -10,22 +10,14 @@
 #import "GProductPreviewImageSpec.h"
 
 
-
-
-
 @protocol GProductPreviewImage
 @end
 
 @interface GProductPreviewImage : GObject
 
 
-
 @property(nonatomic) NSString* layerId;
-
 
 @property(nonatomic) GProductPreviewImageSpec* image;
 
-
 @end
-
-

@@ -1,10 +1,8 @@
-
 #import "GOrdersApi.h"
 #import "GQueryParamCollection.h"
 #import "GPostSubmittedOrder.h"
 #import "GOrderResult.h"
 #import "GPostOrder.h"
-
 
 
 @interface GOrdersApi ()
@@ -72,7 +70,6 @@ static GOrdersApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get an order
@@ -187,7 +184,6 @@ static GOrdersApi* singletonAPI = nil;
           ];
 }
 
-
 ///
 /// Submit an order
 /// Places an order into the system. An order can be submitted as PrePayment (in order to temporarily place an order and get an ID for Paypal) using the IsPreSubmit flag.
@@ -289,8 +285,6 @@ static GOrdersApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

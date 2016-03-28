@@ -10,31 +10,20 @@
 #import "GProductBuildInfo.h"
 
 
-
-
-
 @protocol GProductBuildInfoSpace
 @end
 
 @interface GProductBuildInfoSpace : GObject
 
 
-
 @property(nonatomic) NSString* _id;
-
 
 @property(nonatomic) NSString* _description;
 
-
 @property(nonatomic) NSNumber* index;
-
 
 @property(nonatomic) NSNumber* defaultRotation;
 
-
 @property(nonatomic) NSArray<GProductBuildInfo>* layers;
 
-
 @end
-
-

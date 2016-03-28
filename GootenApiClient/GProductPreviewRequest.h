@@ -10,33 +10,22 @@
 #import "GProductPreviewImage.h"
 
 
-
-
-
 @protocol GProductPreviewRequest
 @end
 
 @interface GProductPreviewRequest : GObject
 
 
-
 @property(nonatomic) NSString* sku;
-
 
 @property(nonatomic) NSString* template;
 
-
 @property(nonatomic) NSArray<GProductPreviewImage>* images;
-
 /* Max height of the resultant image. Defaults to 500px 
  */
 @property(nonatomic) NSNumber* maxHeight;
-
 /* Max width of the resultant image. Defaults to 500px 
  */
 @property(nonatomic) NSNumber* maxWidth;
 
-
 @end
-
-

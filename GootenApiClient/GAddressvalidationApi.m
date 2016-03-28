@@ -1,8 +1,6 @@
-
 #import "GAddressvalidationApi.h"
 #import "GQueryParamCollection.h"
 #import "GResult.h"
-
 
 
 @interface GAddressvalidationApi ()
@@ -70,7 +68,6 @@ static GAddressvalidationApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Validates an address and returns a suggested address (if available) and a validation score.
@@ -185,8 +182,6 @@ static GAddressvalidationApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

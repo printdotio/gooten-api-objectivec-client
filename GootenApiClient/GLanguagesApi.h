@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GLanguageDictionary.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GLanguagesApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GLanguagesApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GLanguagesApi*) sharedAPI;
-
 ///
 ///
 /// Get text in a specified language
@@ -35,8 +32,6 @@
 -(NSNumber*) getLanguageTextWithLanguageCode: (NSString*) languageCode
     key: (NSString*) key
     completionHandler: (void (^)(GLanguageDictionary* output, NSError* error)) handler;
-
-
 
 
 

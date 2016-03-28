@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GFile
 @end
 
 @interface GFile : GObject
 
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* url;
 
-
 @end
-
-

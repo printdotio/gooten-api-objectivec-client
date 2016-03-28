@@ -9,31 +9,20 @@
 
 
 
-
-
-
 @protocol GAddress
 @end
 
 @interface GAddress : GObject
 
 
-
 @property(nonatomic) NSString* city;
-
 
 @property(nonatomic) NSString* countryCode;
 
-
 @property(nonatomic) NSString* postalCode;
-
 
 @property(nonatomic) NSString* stateOrProvinceCode;
 
-
 @property(nonatomic) NSArray* /* NSString */ streetLines;
 
-
 @end
-
-

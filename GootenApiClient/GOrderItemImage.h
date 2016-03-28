@@ -9,31 +9,20 @@
 
 
 
-
-
-
 @protocol GOrderItemImage
 @end
 
 @interface GOrderItemImage : GObject
 
 
-
 @property(nonatomic) NSString* url;
-
 
 @property(nonatomic) NSNumber* index;
 
-
 @property(nonatomic) NSString* thumbnailUrl;
-
 
 @property(nonatomic) NSString* manipCommand;
 
-
 @property(nonatomic) NSString* spaceId;
 
-
 @end
-
-

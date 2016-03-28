@@ -9,19 +9,12 @@
 
 
 
-
-
-
 @protocol GPayment
 @end
 
 @interface GPayment : GObject
 
 
-
 @property(nonatomic) NSString* currencyCode;
 
-
 @end
-
-

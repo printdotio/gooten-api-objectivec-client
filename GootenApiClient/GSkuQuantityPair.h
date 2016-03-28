@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GSkuQuantityPair
 @end
 
 @interface GSkuQuantityPair : GObject
 
 
-
 @property(nonatomic) NSString* sKU;
-
 
 @property(nonatomic) NSNumber* quantity;
 
-
 @end
-
-

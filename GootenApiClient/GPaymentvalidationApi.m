@@ -1,8 +1,6 @@
-
 #import "GPaymentvalidationApi.h"
 #import "GQueryParamCollection.h"
 #import "GPaymentValidationResponse.h"
-
 
 
 @interface GPaymentvalidationApi ()
@@ -70,7 +68,6 @@ static GPaymentvalidationApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Submit payment validation for PayPal
@@ -167,8 +164,6 @@ static GPaymentvalidationApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

@@ -10,22 +10,14 @@
 #import "GImageSizeVm.h"
 
 
-
-
-
 @protocol GImageValidationVm
 @end
 
 @interface GImageValidationVm : GObject
 
 
-
 @property(nonatomic) NSString* sku;
-
 
 @property(nonatomic) NSArray<GImageSizeVm>* images;
 
-
 @end
-
-

@@ -10,19 +10,12 @@
 #import "GPreconfiguredProduct.h"
 
 
-
-
-
 @protocol GPreconfiguredProductsResponse
 @end
 
 @interface GPreconfiguredProductsResponse : GObject
 
 
-
 @property(nonatomic) NSArray<GPreconfiguredProduct>* preconfiguredProducts;
 
-
 @end
-
-

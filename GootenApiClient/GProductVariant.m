@@ -1,5 +1,3 @@
-
-
 #import "GProductVariant.h"
 
 @implementation GProductVariant
@@ -14,7 +12,6 @@
 
   return self;
 }
-
 
 
 /**
@@ -51,6 +48,4 @@
     return [[self toDictionary] description];
 }
 
-
 @end
-

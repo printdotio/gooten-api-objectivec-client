@@ -1,8 +1,6 @@
-
 #import "GUserinfoApi.h"
 #import "GQueryParamCollection.h"
 #import "GUserInfo.h"
-
 
 
 @interface GUserinfoApi ()
@@ -70,7 +68,6 @@ static GUserinfoApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get the user's language code and country based upon IP
@@ -150,8 +147,6 @@ static GUserinfoApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

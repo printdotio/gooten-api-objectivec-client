@@ -1,8 +1,6 @@
-
 #import "GOrdersearchApi.h"
 #import "GQueryParamCollection.h"
 #import "GSubmittedOrderList.h"
-
 
 
 @interface GOrdersearchApi ()
@@ -70,7 +68,6 @@ static GOrdersearchApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Search an orders
@@ -225,8 +222,6 @@ static GOrdersearchApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

@@ -10,34 +10,22 @@
 #import "GProductBuildInfoSpace.h"
 
 
-
-
-
 @protocol GProductBuildOption
 @end
 
 @interface GProductBuildOption : GObject
 
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* imageUrl;
 
-
 @property(nonatomic) NSNumber* isDefault;
-
 
 @property(nonatomic) NSString* category;
 
-
 @property(nonatomic) NSNumber* isPartnerSpecific;
-
 
 @property(nonatomic) NSArray<GProductBuildInfoSpace>* spaces;
 
-
 @end
-
-

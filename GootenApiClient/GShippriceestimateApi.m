@@ -1,8 +1,6 @@
-
 #import "GShippriceestimateApi.h"
 #import "GQueryParamCollection.h"
 #import "GShipEstimate.h"
-
 
 
 @interface GShippriceestimateApi ()
@@ -70,7 +68,6 @@ static GShippriceestimateApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a baseline ship price for an item
@@ -174,8 +171,6 @@ static GShippriceestimateApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

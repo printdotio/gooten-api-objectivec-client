@@ -107,7 +107,6 @@
 
 - (NSDictionary *) authSettings {
     return @{
-
                };
 }
 

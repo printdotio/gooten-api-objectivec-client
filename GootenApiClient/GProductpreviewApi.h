@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "GProductPreviewResponse.h"
 #import "GProductPreviewRequest.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -12,7 +11,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GProductpreviewApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -22,7 +20,6 @@
 -(unsigned long) requestQueueSize;
 +(GProductpreviewApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GProductpreviewApi*) sharedAPI;
-
 ///
 ///
 /// Submit an image (or images) to be rendered into a product preview.
@@ -34,8 +31,6 @@
 /// @return GProductPreviewResponse*
 -(NSNumber*) pOSTProductpreviewWithProductPreviewRequest: (GProductPreviewRequest*) productPreviewRequest
     completionHandler: (void (^)(GProductPreviewResponse* output, NSError* error)) handler;
-
-
 
 
 

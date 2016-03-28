@@ -10,28 +10,18 @@
 #import "GOrderItemImage.h"
 
 
-
-
-
 @protocol GOrderItem
 @end
 
 @interface GOrderItem : GObject
 
 
-
 @property(nonatomic) NSNumber* quantity;
-
 
 @property(nonatomic) NSString* sKU;
 
-
 @property(nonatomic) NSNumber* shipCarrierMethodId;
-
 
 @property(nonatomic) NSArray<GOrderItemImage>* images;
 
-
 @end
-
-

@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GProductVariantResponse.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GProductvariantsApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GProductvariantsApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GProductvariantsApi*) sharedAPI;
-
 ///
 ///
 /// Get a list of available product variations. Includes pricing information
@@ -47,8 +44,6 @@
     languageCode: (NSString*) languageCode
     currencyCode: (NSString*) currencyCode
     completionHandler: (void (^)(GProductVariantResponse* output, NSError* error)) handler;
-
-
 
 
 

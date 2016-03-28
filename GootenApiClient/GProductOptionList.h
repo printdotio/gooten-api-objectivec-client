@@ -10,22 +10,14 @@
 #import "GProductOption.h"
 
 
-
-
-
 @protocol GProductOptionList
 @end
 
 @interface GProductOptionList : GObject
 
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSArray<GProductOption>* values;
 
-
 @end
-
-

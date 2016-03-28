@@ -10,28 +10,18 @@
 #import "GSearchSubmittedOrder.h"
 
 
-
-
-
 @protocol GSubmittedOrderList
 @end
 
 @interface GSubmittedOrderList : GObject
 
 
-
 @property(nonatomic) NSArray<GSearchSubmittedOrder>* orders;
-
 
 @property(nonatomic) NSNumber* totalPages;
 
-
 @property(nonatomic) NSNumber* page;
-
 
 @property(nonatomic) NSNumber* hadError;
 
-
 @end
-
-

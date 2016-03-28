@@ -1,8 +1,6 @@
-
 #import "GProductsApi.h"
 #import "GQueryParamCollection.h"
 #import "GProductList.h"
-
 
 
 @interface GProductsApi ()
@@ -70,7 +68,6 @@ static GProductsApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a list of products
@@ -205,8 +202,6 @@ static GProductsApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

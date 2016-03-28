@@ -11,34 +11,22 @@
 #import "GProductPriceInfo.h"
 
 
-
-
-
 @protocol GProductVariant
 @end
 
 @interface GProductVariant : GObject
 
 
-
 @property(nonatomic) NSString* sku;
-
 
 @property(nonatomic) NSNumber* maxImages;
 
-
 @property(nonatomic) NSNumber* hasTemplates;
-
 
 @property(nonatomic) NSArray<GProductOption>* options;
 
-
 @property(nonatomic) GProductPriceInfo* priceInfo;
-
 
 @property(nonatomic) GProductPriceInfo* partnerPriceInfo;
 
-
 @end
-
-

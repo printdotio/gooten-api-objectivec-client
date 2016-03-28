@@ -9,28 +9,18 @@
 
 
 
-
-
-
 @protocol GItem
 @end
 
 @interface GItem : GObject
 
 
-
 @property(nonatomic) NSNumber* quantity;
-
 
 @property(nonatomic) NSString* sku;
 
-
 @property(nonatomic) NSString* status;
-
 
 @property(nonatomic) NSString* product;
 
-
 @end
-
-

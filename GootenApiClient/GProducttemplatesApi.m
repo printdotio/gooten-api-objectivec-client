@@ -1,8 +1,6 @@
-
 #import "GProducttemplatesApi.h"
 #import "GQueryParamCollection.h"
 #import "GProductBuildInfoResponse.h"
-
 
 
 @interface GProducttemplatesApi ()
@@ -70,7 +68,6 @@ static GProducttemplatesApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a list of product templates
@@ -162,8 +159,6 @@ static GProducttemplatesApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

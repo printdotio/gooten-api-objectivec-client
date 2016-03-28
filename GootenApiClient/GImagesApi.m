@@ -1,8 +1,6 @@
-
 #import "GImagesApi.h"
 #import "GQueryParamCollection.h"
 #import "GFileResult.h"
-
 
 
 @interface GImagesApi ()
@@ -70,7 +68,6 @@ static GImagesApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// POSTs files to a temporary store
@@ -155,8 +152,6 @@ static GImagesApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

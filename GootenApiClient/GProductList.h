@@ -10,19 +10,12 @@
 #import "GProduct.h"
 
 
-
-
-
 @protocol GProductList
 @end
 
 @interface GProductList : GObject
 
 
-
 @property(nonatomic) NSArray<GProduct>* products;
 
-
 @end
-
-

@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "GImageValidationVm.h"
 #import "GImageValidatorResult.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -12,7 +11,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GImagevalidationApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -22,7 +20,6 @@
 -(unsigned long) requestQueueSize;
 +(GImagevalidationApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GImagevalidationApi*) sharedAPI;
-
 ///
 ///
 /// Submit image validation
@@ -34,8 +31,6 @@
 /// @return GImageValidatorResult*
 -(NSNumber*) pOSTImagevalidationWithReq: (GImageValidationVm*) req
     completionHandler: (void (^)(GImageValidatorResult* output, NSError* error)) handler;
-
-
 
 
 

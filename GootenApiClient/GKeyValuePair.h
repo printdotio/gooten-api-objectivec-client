@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GKeyValuePair
 @end
 
 @interface GKeyValuePair : GObject
 
 
-
 @property(nonatomic) NSString* key;
-
 
 @property(nonatomic) NSString* value;
 
-
 @end
-
-

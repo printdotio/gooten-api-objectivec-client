@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GPaymentValidationRequest
 @end
 
 @interface GPaymentValidationRequest : GObject
 
 
-
 @property(nonatomic) NSString* orderId;
-
 
 @property(nonatomic) NSString* payPalKey;
 
-
 @end
-
-

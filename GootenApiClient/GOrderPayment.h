@@ -9,38 +9,25 @@
 
 
 
-
-
-
 @protocol GOrderPayment
 @end
 
 @interface GOrderPayment : GObject
 
 
-
 @property(nonatomic) NSString* braintreeEncryptedCCNumber;
-
 
 @property(nonatomic) NSString* braintreeEncryptedCCExpDate;
 
-
 @property(nonatomic) NSString* braintreeEncryptedCCV;
 
-
 @property(nonatomic) NSString* braintreePaymentNonce;
-
 /* A code that when passed allows the order to be submitted on credit. 
  */
 @property(nonatomic) NSString* partnerBillingKey;
 
-
 @property(nonatomic) NSNumber* total;
-
 
 @property(nonatomic) NSString* currencyCode;
 
-
 @end
-
-

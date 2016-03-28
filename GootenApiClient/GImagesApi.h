@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GFileResult.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GImagesApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GImagesApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GImagesApi*) sharedAPI;
-
 ///
 ///
 /// POSTs files to a temporary store
@@ -33,8 +30,6 @@
 /// @return GFileResult*
 -(NSNumber*) postImagesWithImages: (NSURL*) images
     completionHandler: (void (^)(GFileResult* output, NSError* error)) handler;
-
-
 
 
 

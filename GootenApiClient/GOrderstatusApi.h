@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GOrderStatusUpdateResult.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GOrderstatusApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GOrderstatusApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GOrderstatusApi*) sharedAPI;
-
 ///
 ///
 /// Update an order status
@@ -37,8 +34,6 @@
     _id: (NSString*) _id
     orderStatusName: (NSString*) orderStatusName
     completionHandler: (void (^)(GOrderStatusUpdateResult* output, NSError* error)) handler;
-
-
 
 
 

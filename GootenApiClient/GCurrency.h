@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GCurrency
 @end
 
 @interface GCurrency : GObject
 
 
-
 @property(nonatomic) NSString* name;
-
 
 @property(nonatomic) NSString* code;
 
-
 @property(nonatomic) NSString* format;
 
-
 @end
-
-

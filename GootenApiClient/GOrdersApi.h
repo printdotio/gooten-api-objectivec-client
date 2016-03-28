@@ -2,7 +2,6 @@
 #import "GPostSubmittedOrder.h"
 #import "GOrderResult.h"
 #import "GPostOrder.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -13,7 +12,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GOrdersApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -23,7 +21,6 @@
 -(unsigned long) requestQueueSize;
 +(GOrdersApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GOrdersApi*) sharedAPI;
-
 ///
 ///
 /// Get an order
@@ -43,7 +40,6 @@
     completionHandler: (void (^)(GPostSubmittedOrder* output, NSError* error)) handler;
 
 
-
 ///
 ///
 /// Submit an order
@@ -59,8 +55,6 @@
     version: (NSNumber*) version
     source: (NSString*) source
     completionHandler: (void (^)(GOrderResult* output, NSError* error)) handler;
-
-
 
 
 

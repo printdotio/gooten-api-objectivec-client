@@ -1,8 +1,6 @@
-
 #import "GLanguagesApi.h"
 #import "GQueryParamCollection.h"
 #import "GLanguageDictionary.h"
-
 
 
 @interface GLanguagesApi ()
@@ -70,7 +68,6 @@ static GLanguagesApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get text in a specified language
@@ -162,8 +159,6 @@ static GLanguagesApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

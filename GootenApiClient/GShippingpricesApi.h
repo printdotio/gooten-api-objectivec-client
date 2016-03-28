@@ -1,7 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "GShippingPricesResult.h"
 #import "GShippingPricesRequest.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -12,7 +11,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GShippingpricesApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -22,7 +20,6 @@
 -(unsigned long) requestQueueSize;
 +(GShippingpricesApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GShippingpricesApi*) sharedAPI;
-
 ///
 ///
 /// Get a list of shipping options and prices for items
@@ -36,8 +33,6 @@
 -(NSNumber*) pOSTShippingpricesWithShippingPricesRequest: (GShippingPricesRequest*) shippingPricesRequest
     partnerBillingKey: (NSString*) partnerBillingKey
     completionHandler: (void (^)(GShippingPricesResult* output, NSError* error)) handler;
-
-
 
 
 

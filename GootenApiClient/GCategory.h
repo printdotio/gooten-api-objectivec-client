@@ -9,22 +9,14 @@
 
 
 
-
-
-
 @protocol GCategory
 @end
 
 @interface GCategory : GObject
 
 
-
 @property(nonatomic) NSNumber* _id;
-
 
 @property(nonatomic) NSString* name;
 
-
 @end
-
-

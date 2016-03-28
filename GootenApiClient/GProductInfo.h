@@ -9,29 +9,19 @@
 
 
 
-
-
-
 @protocol GProductInfo
 @end
 
 @interface GProductInfo : GObject
 
 
-
 @property(nonatomic) NSString* contentType;
-
 
 @property(nonatomic) NSArray* /* NSString */ content;
 
-
 @property(nonatomic) NSString* key;
-
 /* The suggested ordering of the content about the product. 
  */
 @property(nonatomic) NSNumber* index;
 
-
 @end
-
-

@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GProductBuildInfoResponse.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GProducttemplatesApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GProducttemplatesApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GProducttemplatesApi*) sharedAPI;
-
 ///
 ///
 /// Get a list of product templates
@@ -35,8 +32,6 @@
 -(NSNumber*) getProducttemplatesWithSku: (NSString*) sku
     languageCode: (NSString*) languageCode
     completionHandler: (void (^)(GProductBuildInfoResponse* output, NSError* error)) handler;
-
-
 
 
 

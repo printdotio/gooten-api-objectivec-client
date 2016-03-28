@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GUserInfo.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GUserinfoApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GUserinfoApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GUserinfoApi*) sharedAPI;
-
 ///
 ///
 /// Get the user's language code and country based upon IP
@@ -33,8 +30,6 @@
 /// @return GUserInfo*
 -(NSNumber*) getUserinfoWithLanguageCode: (NSString*) languageCode
     completionHandler: (void (^)(GUserInfo* output, NSError* error)) handler;
-
-
 
 
 

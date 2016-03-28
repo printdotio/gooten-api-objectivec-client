@@ -10,31 +10,20 @@
 #import "GShipPrice.h"
 
 
-
-
-
 @protocol GShipEstimate
 @end
 
 @interface GShipEstimate : GObject
 
 
-
 @property(nonatomic) GShipPrice* minPrice;
-
 
 @property(nonatomic) GShipPrice* maxPrice;
 
-
 @property(nonatomic) NSString* vendorCountryCode;
-
 
 @property(nonatomic) NSNumber* canShipExpedited;
 
-
 @property(nonatomic) NSNumber* estShipDays;
 
-
 @end
-
-

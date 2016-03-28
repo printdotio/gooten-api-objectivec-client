@@ -10,19 +10,12 @@
 #import "GShipItem.h"
 
 
-
-
-
 @protocol GShippingPricesResult
 @end
 
 @interface GShippingPricesResult : GObject
 
 
-
 @property(nonatomic) NSArray<GShipItem>* result;
 
-
 @end
-
-

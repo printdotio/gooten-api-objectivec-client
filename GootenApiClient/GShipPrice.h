@@ -9,25 +9,16 @@
 
 
 
-
-
-
 @protocol GShipPrice
 @end
 
 @interface GShipPrice : GObject
 
 
-
 @property(nonatomic) NSNumber* price;
-
 
 @property(nonatomic) NSString* currencyCode;
 
-
 @property(nonatomic) NSString* formattedPrice;
 
-
 @end
-
-

@@ -1,9 +1,7 @@
-
 #import "GProductpreviewApi.h"
 #import "GQueryParamCollection.h"
 #import "GProductPreviewResponse.h"
 #import "GProductPreviewRequest.h"
-
 
 
 @interface GProductpreviewApi ()
@@ -71,7 +69,6 @@ static GProductpreviewApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Submit an image (or images) to be rendered into a product preview.
@@ -152,8 +149,6 @@ static GProductpreviewApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

@@ -9,64 +9,42 @@
 
 
 
-
-
-
 @protocol GProductBuildInfo
 @end
 
 @interface GProductBuildInfo : GObject
 
 
-
 @property(nonatomic) NSString* _id;
-
 
 @property(nonatomic) NSString* _description;
 
-
 @property(nonatomic) NSString* type;
-
 
 @property(nonatomic) NSNumber* zIndex;
 
-
 @property(nonatomic) NSNumber* x1;
-
 
 @property(nonatomic) NSNumber* x2;
 
-
 @property(nonatomic) NSNumber* y1;
-
 
 @property(nonatomic) NSNumber* y2;
 
-
 @property(nonatomic) NSString* color;
-
 
 @property(nonatomic) NSString* backgroundImageUrl;
 
-
 @property(nonatomic) NSString* overlayImageUrl;
-
 
 @property(nonatomic) NSString* fontName;
 
-
 @property(nonatomic) NSString* fontSize;
-
 
 @property(nonatomic) NSString* fontHAlignment;
 
-
 @property(nonatomic) NSString* fontVAlighment;
-
 
 @property(nonatomic) NSString* defaultText;
 
-
 @end
-
-

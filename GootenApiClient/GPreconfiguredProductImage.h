@@ -9,28 +9,18 @@
 
 
 
-
-
-
 @protocol GPreconfiguredProductImage
 @end
 
 @interface GPreconfiguredProductImage : GObject
 
 
-
 @property(nonatomic) NSString* url;
-
 
 @property(nonatomic) NSString* _description;
 
-
 @property(nonatomic) NSNumber* index;
-
 
 @property(nonatomic) NSString* _id;
 
-
 @end
-
-

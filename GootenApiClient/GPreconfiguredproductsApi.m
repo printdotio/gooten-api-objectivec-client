@@ -1,10 +1,8 @@
-
 #import "GPreconfiguredproductsApi.h"
 #import "GQueryParamCollection.h"
 #import "GPreconfiguredProductInsert.h"
 #import "GPreconfiguredProductsInsertResponse.h"
 #import "GPreconfiguredProductsResponse.h"
-
 
 
 @interface GPreconfiguredproductsApi ()
@@ -72,7 +70,6 @@ static GPreconfiguredproductsApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Insert a preconfigured product
@@ -176,7 +173,6 @@ static GPreconfiguredproductsApi* singletonAPI = nil;
           ];
 }
 
-
 ///
 /// Delete a preconfigured product
 /// Delete a preconfigured product from your recipe.
@@ -277,7 +273,6 @@ static GPreconfiguredproductsApi* singletonAPI = nil;
                            }
           ];
 }
-
 
 ///
 /// Get a list of your preconfigured products
@@ -399,7 +394,6 @@ static GPreconfiguredproductsApi* singletonAPI = nil;
           ];
 }
 
-
 ///
 /// Update a preconfigured product
 /// Update a preconfigured product into your recipe.
@@ -501,8 +495,6 @@ static GPreconfiguredproductsApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

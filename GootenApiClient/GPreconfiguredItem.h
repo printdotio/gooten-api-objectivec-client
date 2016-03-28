@@ -10,27 +10,18 @@
 #import "GPreconfiguration.h"
 
 
-
-
-
 @protocol GPreconfiguredItem
 @end
 
 @interface GPreconfiguredItem : GObject
 
-
 /* The ID of the product this item references. 
  */
 @property(nonatomic) NSNumber* productId;
-
 /* The sku of the product variant this item references. 
  */
 @property(nonatomic) NSString* productVariantSku;
 
-
 @property(nonatomic) NSArray<GPreconfiguration>* preconfigurations;
 
-
 @end
-
-

@@ -1,6 +1,5 @@
 #import <Foundation/Foundation.h>
 #import "GShipEstimate.h"
-
 #import "GObject.h"
 #import "GApiClient.h"
 
@@ -11,7 +10,6 @@
  * Do not edit the class manually.
  */
 
-
 @interface GShippriceestimateApi: NSObject
 
 @property(nonatomic, assign)GApiClient *apiClient;
@@ -21,7 +19,6 @@
 -(unsigned long) requestQueueSize;
 +(GShippriceestimateApi*) apiWithHeader:(NSString*)headerValue key:(NSString*)key;
 +(GShippriceestimateApi*) sharedAPI;
-
 ///
 ///
 /// Get a baseline ship price for an item
@@ -37,8 +34,6 @@
     countryCode: (NSString*) countryCode
     currencyCode: (NSString*) currencyCode
     completionHandler: (void (^)(GShipEstimate* output, NSError* error)) handler;
-
-
 
 
 

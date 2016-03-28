@@ -1,8 +1,6 @@
-
 #import "GProductvariantsApi.h"
 #import "GQueryParamCollection.h"
 #import "GProductVariantResponse.h"
-
 
 
 @interface GProductvariantsApi ()
@@ -70,7 +68,6 @@ static GProductvariantsApi* singletonAPI = nil;
 }
 
 #pragma mark - Api Methods
-
 
 ///
 /// Get a list of available product variations. Includes pricing information
@@ -217,8 +214,6 @@ static GProductvariantsApi* singletonAPI = nil;
                            }
           ];
 }
-
-
 
 
 

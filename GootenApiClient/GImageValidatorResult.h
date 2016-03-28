@@ -10,22 +10,14 @@
 #import "GValidationFailure.h"
 
 
-
-
-
 @protocol GImageValidatorResult
 @end
 
 @interface GImageValidatorResult : GObject
 
 
-
 @property(nonatomic) NSNumber* hadError;
-
 
 @property(nonatomic) NSArray<GValidationFailure>* issues;
 
-
 @end
-
-

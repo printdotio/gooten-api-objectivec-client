@@ -9,31 +9,20 @@
 
 
 
-
-
-
 @protocol GProductImage
 @end
 
 @interface GProductImage : GObject
 
 
-
 @property(nonatomic) NSString* url;
-
 
 @property(nonatomic) NSString* _description;
 
-
 @property(nonatomic) NSNumber* index;
-
 
 @property(nonatomic) NSString* _id;
 
-
 @property(nonatomic) NSArray* /* NSString */ imageTypes;
 
-
 @end
-
-

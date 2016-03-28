@@ -10,22 +10,14 @@
 #import "GShipOption.h"
 
 
-
-
-
 @protocol GShipItem
 @end
 
 @interface GShipItem : GObject
 
 
-
 @property(nonatomic) NSArray* /* NSString */ sKUs;
-
 
 @property(nonatomic) NSArray<GShipOption>* shipOptions;
 
-
 @end
-
-

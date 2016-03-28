@@ -9,31 +9,20 @@
 
 
 
-
-
-
 @protocol GPriceInfo
 @end
 
 @interface GPriceInfo : GObject
 
 
-
 @property(nonatomic) NSNumber* price;
-
 
 @property(nonatomic) NSString* currencyCode;
 
-
 @property(nonatomic) NSString* formattedPrice;
-
 
 @property(nonatomic) NSString* currencyFormat;
 
-
 @property(nonatomic) NSNumber* currencyDigits;
 
-
 @end
-
-

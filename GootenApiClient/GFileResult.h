@@ -10,19 +10,12 @@
 #import "GImage.h"
 
 
-
-
-
 @protocol GFileResult
 @end
 
 @interface GFileResult : GObject
 
 
-
 @property(nonatomic) NSArray<GImage>* price;
 
-
 @end
-
-

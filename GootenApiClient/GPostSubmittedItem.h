@@ -12,61 +12,42 @@
 #import "GShipment.h"
 
 
-
-
-
 @protocol GPostSubmittedItem
 @end
 
 @interface GPostSubmittedItem : GObject
 
 
-
 @property(nonatomic) NSString* sku;
 
-
 @property(nonatomic) NSNumber* productId;
-
 /* The type of product that was bought 
  */
 @property(nonatomic) NSString* product;
 
-
 @property(nonatomic) NSNumber* quantity;
 
-
 @property(nonatomic) NSString* status;
-
 /* Deprecated. Use the Shipments array as this will be removed in a future release. 
  */
 @property(nonatomic) NSString* trackingNumber;
-
 /* Deprecated. Use the Shipments array as this will be removed in a future release. 
  */
 @property(nonatomic) NSString* trackingUrl;
-
 /* Deprecated. Use the Shipments array as this will be removed in a future release. 
  */
 @property(nonatomic) NSString* shipCarrierName;
 
-
 @property(nonatomic) GProductPriceInfo* price;
 
-
 @property(nonatomic) GProductPriceInfo* discountAmount;
-
 /* Partner's internal ID-- entirely optional 
  */
 @property(nonatomic) NSString* sourceId;
-
 /* An optional Map<string,string> of misc properties. 
  */
 @property(nonatomic) GMeta* meta;
 
-
 @property(nonatomic) NSArray<GShipment>* shipments;
 
-
 @end
-
-
